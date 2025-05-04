@@ -133,6 +133,21 @@ If you use this code in your research, please cite:
 }
 ```
 
+Also, please cite the original MoleculeSTM paper that our work builds upon:
+
+```
+@article{liu2023multimodal,
+  title={Multi-modal molecule structure–text model for text-based retrieval and editing},
+  author={Liu, Shengchao and Nie, Weili and Wang, Chengpeng and others},
+  journal={Nature Machine Intelligence},
+  volume={5},
+  pages={1447--1457},
+  year={2023},
+  publisher={Nature Publishing Group},
+  doi={10.1038/s42256-023-00759-6}
+}
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
