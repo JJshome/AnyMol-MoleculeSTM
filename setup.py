@@ -1,0 +1,40 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="anymol-moleculestm",
+    version="0.1.0",
+    description="Implementation of AnyMol methodology integrated with MoleculeSTM for enhanced molecular design",
+    author="JJshome",
+    author_email="",  # Add your email if you wish
+    url="https://github.com/JJshome/AnyMol-MoleculeSTM",
+    packages=find_packages(),
+    install_requires=[
+        "torch>=1.9.0",
+        "numpy>=1.20.0",
+        "pandas>=1.3.0",
+        "scikit-learn>=0.24.2",
+        "rdkit>=2021.03.1",
+        "matplotlib>=3.4.2",
+        "seaborn>=0.11.1",
+        "tqdm>=4.61.0",
+        "pyyaml>=5.4.1",
+        "tensorboard>=2.5.0",
+        "transformers>=4.8.0",
+        "scipy>=1.7.0",
+        "networkx>=2.6.2",
+        "deepchem>=2.5.0",
+        "molsets>=0.2.0",
+        "moleculestm>=0.5.0",
+    ],
+    classifiers=[
+        "Development Status :: 3 - Alpha",
+        "Intended Audience :: Science/Research",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Topic :: Scientific/Engineering :: Chemistry",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    ],
+    python_requires=">=3.7",
+)
