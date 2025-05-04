@@ -2,6 +2,8 @@
 
 Implementation of AnyMol methodology integrated with MoleculeSTM for enhanced molecular design with at least 50% performance improvement.
 
+![AnyMol-MoleculeSTM Architecture](anymol-moleculestm-diagram.svg)
+
 ## Overview
 
 AnyMol-MoleculeSTM combines the flexibility of AnyMol with the powerful representation capabilities of MoleculeSTM to create a more efficient and effective framework for molecular design and optimization. This integration enables:
