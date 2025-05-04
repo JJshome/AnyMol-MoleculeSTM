@@ -25,6 +25,36 @@ AnyMol introduces several groundbreaking capabilities to molecular machine learn
 
 The integration with MoleculeSTM further enhances these capabilities through structure-text alignment, creating a more powerful and comprehensive framework for molecular discovery.
 
+## The Power of AnyMol-MoleculeSTM Integration
+
+The synergistic integration of AnyMol and MoleculeSTM creates unique capabilities that neither framework could achieve independently:
+
+### How They Complement Each Other
+
+- **AnyMol** excels at structural understanding, hierarchical molecular representations, and chemical knowledge integration
+- **MoleculeSTM** specializes in structure-text alignment, natural language understanding of chemical concepts, and text-guided design
+- **Together**, they create a unified representation space that bridges molecular structures and textual descriptions
+
+### Key Integration Points
+
+1. **Bidirectional Knowledge Transfer**: 
+   - AnyMol's structural expertise enriches MoleculeSTM's text representations with precise molecular features
+   - MoleculeSTM's text understanding provides AnyMol with semantic context from chemical literature
+
+2. **Enhanced Capabilities**:
+   - **Text-Guided Molecular Design**: Generate molecules matching specific textual descriptions
+   - **Structural Explanation Generation**: Create human-readable explanations for molecular properties
+   - **Cross-Modal Retrieval**: Find molecules using natural language queries or find descriptions that match molecular structures
+   - **Knowledge-Enhanced Prediction**: Leverage both textual and structural information for more accurate property prediction
+
+3. **Practical Applications**:
+   - Drug designers can describe desired properties in natural language and receive valid molecular candidates
+   - Researchers can query large molecular databases using both structural patterns and textual descriptions
+   - Models can explain their predictions in both structural and textual formats, enhancing interpretability
+   - Knowledge from scientific literature can be automatically incorporated into molecular design processes
+
+For detailed technical information on the integration architecture, see the [model documentation](docs/model.md#anymol-moleculestm-integration).
+
 ## Why AnyMol Matters
 
 AnyMol addresses several critical challenges in computational drug discovery and materials design:
