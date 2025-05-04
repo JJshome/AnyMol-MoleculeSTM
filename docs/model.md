@@ -14,6 +14,7 @@ This document provides a detailed explanation of the AnyMol-MoleculeSTM architec
 - [Molecular Generation Pipeline](#molecular-generation-pipeline)
 - [Optimization Strategies](#optimization-strategies)
 - [Performance Enhancements](#performance-enhancements)
+- [References](#references)
 
 ## Overview
 
@@ -211,3 +212,7 @@ The integration of AnyMol and MoleculeSTM provides several key performance enhan
    - Quick fine-tuning for downstream applications
    - Few-shot learning capabilities
    - Transfer learning to new chemical domains
+
+## References
+
+1. Liu, S., Nie, W., Wang, C. *et al.* Multi-modal molecule structure–text model for text-based retrieval and editing. *Nat Mach Intell* **5**, 1447–1457 (2023). https://doi.org/10.1038/s42256-023-00759-6
